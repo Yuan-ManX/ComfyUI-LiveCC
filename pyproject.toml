@@ -1,0 +1,15 @@
+[project]
+name = "livecc"
+description = "ComfyUI nodes for LiveCC model."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch", "torchvision", "torchaudio", "transformers", "accelerate", "deepspeed", "peft", "opencv-python", "decord", "datasets", "tensorboard", "gradio", "pillow-heif", "yt-dlp", "gdown", "gpustat", "timm", "sentencepiece", "openai", "av==12.0.0", "python_speech_features", "scipy", "wavfile", "insightface", "onnxruntime-gpu", "qwen_vl_utils", "liger_kernel", "flash-attn --no-build-isolation", "livecc-utils"]
+
+[project.urls]
+Repository = "https://github.com/Yuan-ManX/ComfyUI-LiveCC"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-LiveCC"
+Icon = ""
